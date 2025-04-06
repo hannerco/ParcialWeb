@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --yellow: #ffea35;
+    --blue: #1c2260;
+    --orange: #ff800b;
+    --ligth-orange: #ffbb7c;
+    --purple: #e016ff;
+    --pink: #ff0b80;
+    --light-pink: #ff7db9;
+}
+
+
+
+.mainContainer {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.insideMainContainer {
+    background-color: var(--yellow);
+    width: calc(100% - 45px); 
+    height: calc(100% - 45px); 
+    display: flex;
+
+}
+
+.leftContainer {
+    background-color: var(--purple);
+    height: 100%;
+    width: 10%
+}
+
+
+.rightContainer {
+    height: 100%;
+    width: 90%;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+}
+
+.up {
+    display: flex;
+    background-color: var(--yellow);
+    width: 100%;
+    height: 44%; 
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.middle {
+    width: 100%;
+    height: 12%;
+    background-color: var(--blue);
+}
+
+.down {
+    display: flex;
+    background-color: var(--yellow);
+    width: 100%;
+    height: 44%; 
+}
+
+
+.upBoxes {
+    background-color: var(--orange);
+    width: 23%;
+    height: 44%;
+    display: flex;
+}
+
+
+.upFirstIn {
+    background-color: var(--ligth-orange);
+    width: 35%;
+    height: 40%;
+}
+
+.upSecondIn {
+    background-color: var(--ligth-orange);
+    width: 35%;
+    height: 40%;
+    align-self: center;
+    margin: auto;
+}
+
+.upThird {
+    align-items: end;
+    justify-content: end;
+}
+.upThirdIn {
+    background-color: var(--ligth-orange);
+    width: 35%;
+    height: 40%;
+}
+
